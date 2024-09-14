@@ -27,7 +27,11 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
 </head>
-
+<script>
+  document.getElementById('openPdfBtn').addEventListener('click', function(){
+   window.open('images/Pink Simple Profile Resume.pdf', '_blank');
+  });
+</script>
 <body>
 
   <div class="hero_area">
@@ -78,7 +82,7 @@
               <p>
               A digital artist with a strong focus on 3D design within event Industry
 .He passionaltely comminicates ideas through bold and playful design              </p>
-              <a href="" class="">
+              <button id="openPdfBtn" class="">
                 Resume
             </div>
           </div>
